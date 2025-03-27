@@ -9,7 +9,6 @@
  * Do basic math.
  */
 function doMathClicked() {
-  document.getElementById("multiply-math-for-area").innerHTML = "<p>3 + 4 × 2 = " + (3 + 4 * 2) + "</p>" 
-  document.getElementById("multiply-math-for-perimeter").innerHTML = "<p>(4 ÷ 2) + 3 = " + (4 / 2 + 3) + "</p>"
-  document.getElementById("exponent-math").innerHTML = "<p>5 + 2³ = " + (5 + 2 ** 3) + "</p>"
+  document.getElementById("multiply-math-for-area").innerHTML = "<p>The area is: " + (5 * 3) + cm²"</p>" 
+  document.getElementById("multiply-math-for-perimeter").innerHTML = "<p>The perimeter is: " + ((5 + 3) * 2) + cm"</p>"
 }
